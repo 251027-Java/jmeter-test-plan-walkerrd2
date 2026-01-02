@@ -75,10 +75,10 @@ Add the following listeners:
 
 ### Task 9: Analyze Results
 Answer these questions:
-1. What was the average response time?
-2. What was the throughput (requests/second)?
-3. Did any requests fail?
-4. Which endpoint was slowest?
+1. What was the average response time? GET/get: 303, POST/post: 254, GET/delay: 1404
+2. What was the throughput (requests/second)? GET/get: 3.5/sec, POST/post: 3.9/sec, GET/delay: 3.3/sec
+3. Did any requests fail? 1 POST; 3.33% error for POST; Response code: 502
+4. Which endpoint was slowest? POST
 
 ## Deliverables
 1. JMeter test plan file (`.jmx`)
